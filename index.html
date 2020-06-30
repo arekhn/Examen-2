@@ -1,0 +1,173 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Floristeria</title>
+<link href="css/framework7.min.css" rel="stylesheet">	
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body class="color-theme-purple">
+	<div id="app">
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+		  <section class="panel panel-left panel-cover">
+			  <div class="block">
+			  <div class="row">
+				  <article class="col-20">
+					<img src="img/profile.jpg" alt="perfil" class="img-fluid img-p">
+				  </article>
+				  	  <article class="col-80">	
+				 <b>Maria Zepeda</b>
+				 <span class="letra_b">maria.zepeda@gmail.com</span> 
+				  </article><br>
+				</div>
+			  </div> 
+			  <div class="list">
+			  <ul class="list-menu">  
+				<li>
+					<a href="#" class="item-link item-content panel-close">
+					<div class="item-media"> <span class="material-icons">home</span>     </div>
+					<div class="item-inner"> Inicio  </div>
+					</a>
+				</li>
+				  
+				  	  <li>
+						  <a href="/perfil/" class="item-link item-content panel-close">
+							  <div class="item-media"> <span class="material-icons">account_circle</span>     </div>
+							
+							<div class="item-inner"> Perfil  </div>
+						  </a>
+						</li>
+				  	  <li>
+						  <a href="/cat/" class="item-link item-content panel-close">
+							  <div class="item-media"> <span class="material-icons">list</span>     </div>
+			
+							<div class="item-inner"> Categorias  </div>
+						  </a>
+						</li>
+				  
+				  		  <li>
+						  <a href="#" class="item-link item-content panel-close">
+								<div class="item-media"> <span class="material-icons">local_offer</span>     </div>
+							<div class="item-inner"> Promociones </div>
+						  </a>
+						</li>
+				  
+				  			 <li>
+						  <a href="#" class="item-link item-content panel-close">
+					<div class="item-media"> <span class="material-icons">shopping_basket</span>     </div>
+							<div class="item-inner"> Mis Ordenes </div>
+						  </a>
+						</li>
+				  		<li>
+						  <a href="#" class="item-link item-content panel-close">
+							  <div class="item-media"> <span class="material-icons">live_help</span>     </div>
+				
+							<div class="item-inner"> Soporte </div>
+						  </a>
+						</li>		
+				  		<li>
+						  <a href="#" class="item-link item-content panel-close">
+							  <div class="item-media">
+								  <span class="material-icons">exit_to_app</span>
+							  </div>
+							<div class="item-inner"> Salir </div>
+						  </a>
+						</li>		  
+				  </ul>		  
+			  </div>
+		  </section>
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+				<div class="left">
+				<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+				</div>
+              <div class="title">Home</div>
+            </div>
+          </nav>   
+          <!-- Scrollable page content -->
+          <article class="page-content">
+          	<div class="block saludo">
+			  <h2>Bienvenida!</h2>	  
+			  </div>  
+			  <h2 class="block-title">Destacados</h2>
+			<div class="swiper-container swiper-init demo-swiper" data-slides-per-view="2">
+  				<div class="swiper-pagination"></div>
+  				<div class="swiper-wrapper">
+					<div class="swiper-slide front">
+						<img src="img/148589xlx.jpg" alt="flores1">
+						<h2>Summer Dunes</h2>
+					</div>
+					<div class="swiper-slide front">
+						<img src="img/148594lx.jpg" alt="flores2">
+						<h2>Floral Embrace</h2>
+					</div>
+					<div class="swiper-slide front">
+						<img src="img/167530lx.jpg" alt="flores3">
+						<h2>Lovely Lavender</h2>
+					</div>
+					<div class="swiper-slide front">
+						<img src="img/167891lx.jpg" alt="flores4">
+						<h2>Garden Pathing</h2>
+					</div>
+					<div class="swiper-slide front">
+						<img src="img/90925mv24ca7x.jpg" alt="flores5">
+						<h2>Assorted Roses</h2>
+					</div>
+				  </div>		  
+			  </div>		  
+		.shop{}	  <h2 class="block-title">Categorias</h2>
+			<div data-pagination='{"el": ".swiper-pagination"}' data-space-between="5" data-slides-per-view="2.5" class="swiper-container swiper-init demo-swiper">
+				  <div class="swiper-wrapper">
+				  <div class="swiper-slide">
+				  		<a href="/cat/">
+						<div class="card card-header-pic">
+						<div style="background-image:url(img/wed.jpg)" class="card-header align-items-flex-end"></div>
+						<p>Para Bodas y Bautizos</p>
+						</div>
+						</a>
+				  </div>
+					<div class="swiper-slide">
+						<a href="/cat/">
+				  		<div class="card card-header-pic">
+						<div style="background-image:url(img/grad.jpg)" class="card-header align-items-flex-end"></div>
+						<p>Eventos y Graduaciones</p>
+						</div>
+						</a>
+				  </div>
+				  <div class="swiper-slide">
+					  	<a href="/cat/">
+				  		<div class="card card-header-pic">
+						<div style="background-image:url(img/cump.jpg)" class="card-header align-items-flex-end"></div>
+						<p>Fiestas y Cumpleaños</p>
+						</div>
+					  	</a>
+				  </div>
+				    <div class="swiper-slide">
+						<a href="/cat/">
+				  		<div class="card card-header-pic">
+						<div style="background-image:url(img/Funebres.jpg)" class="card-header align-items-flex-end"></div>
+						<p>Arreglos Funebres</p>
+						</div>
+						</a>
+				  </div>
+				</div>
+			  </div>
+          </article>
+        </section>
+      </div>
+    </div>
+	<script src="js/framework7.min.js"></script>
+	<script src="js/framework7-lite.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>

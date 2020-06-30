@@ -1,0 +1,247 @@
+@charset "utf-8";
+@import url('fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/* CSS Document */
+:root{
+	--verde:#0f9e5c;
+	--fondo_p:#4c535b;
+	--icon_menu:#c6d0d;
+	--text_menu:#878b94;
+	--bg_menu:	#4d545c;
+	--f7-navbar-bg-color: #648767;
+	--f7-list-border-color: none;
+	--azul:#52307c;
+	--gris:#b0b6c2;
+	--carbon:#3b3c40;
+}
+.panel-left{
+	background-color:var(--azul);
+	color: #fff;
+}
+.letra_v{
+	color: var(--verde);
+}
+.letra_b{
+	color: #FFFFFF;
+}
+.list-menu .item-media span{
+	color: var(--icon_menu);
+	
+}
+
+.img-p{
+	border-radius: 100%;
+	}
+.list-menu .item-inner{
+	color: #fff;
+}
+.list-menu{
+	background-color: var(--azul)!important;
+	font-size: 14px;
+}
+.list-menu .item-inner::after{
+	background-color: transparent!important;
+}
+h1, h2, h3, h4{	
+margin: 2px 0;
+}
+.navbar{
+	color: #fff;
+}
+.front img{
+	max-height: 200px;
+	max-width: auto;
+	border-radius: 5%;
+	position: relative;
+}
+.front h2{
+	position: absolute;
+	top: 150px;
+	left: 5%;
+	color: white;
+	background-color: rgba(337,18,57,0.40);
+	padding: 5px;
+}
+.card-header-pic .card-header {
+  height: 40vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.card p{
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.swiper-pagination{
+	position: absolute;
+	top: 120%;
+}
+.saludo{
+	color: var(--azul);
+	margin-bottom: -6%;
+}
+.saludo h2{
+	font-size: 28px;
+}
+.saludo h3{
+	font-weight: 500;
+}
+.block-title{
+	color: #000;
+	font-weight: 600;
+}
+.img-fluid{
+	max-width:  100%;
+}
+
+.card-food .card-header{
+	padding: 0px
+}
+
+.card-food .card-header img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.card-food .card-content{
+	background-color: var(--azul);
+	color: #fff;
+	padding: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size:  17px;
+}
+.card-food .card-content article:last-child{
+	justify-content: right;
+	display: flex;
+	font-size: 13px;
+}
+
+.categorias .card{
+	background-color: var(--azul);
+	color: #fff;
+	padding: 5px 10px;
+}
+
+.categorias .card-content img{
+	width: 40px;
+}
+.derecha{
+	text-align: right;
+}
+.categorias h3{
+	margin-top: -20%;
+	font-size: 15px;
+	font-weight: 600;
+}
+.bg-azul{
+	background-color: var(--azul);
+	color: #fff;
+	padding: 45px 0;
+}
+.bg-azul block{
+	margin-top: 0;
+}
+.perfil-contador .card-content{
+	padding: 40px 20px;
+	text-align: center; 
+}
+.perfil-contador .card{
+	margin-top: -25%;
+	box-shadow: 0px 0px 10px 0px #ccc;
+}
+.perfil-contador h4{
+	font-size: 24px;
+}
+.list-perfil .item-header{
+	color: #666;
+}
+.list-perfil .item-title{
+	color: #000;
+	font-weight: 500;
+}
+.bg-carnes{
+	background-image: url(../img/bg-meat.jpg);
+	background-size: cover;
+	background-position: top center;
+	padding: 10% 0;
+}
+.bg-carnes h2{
+	color: #fff;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 700;
+}
+.bg-carnes .block{
+	margin-top: 0;
+}
+.lista-productos .item-media img{
+	width: 80px;
+}
+.info-producto .popup-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #aaa;
+}
+.info-producto .titulo{
+	font-size: 20px;
+}
+.info-producto .precio{
+	color: #aaa;
+}
+.info-producto .precio{
+	color:var(--azul);
+	font-size: 16px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color: #648767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:25px;
+	padding:8px 63px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-bottom: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.shop{
+	text-align: center;
+}
+.shop h1{
+	text-align: left;
+	font-size: 25px;
+	font-weight: 800;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.shop p{
+	text-align: left;
+	margin-top: -5px;
+	margin-left: 15px;
+}
+.price{
+	font-size: 28px;
+	margin-top: -5px;
+	margin-left: 15px;
+	color: red;
+	text-align: left;
+}
+.shop h3{
+	text-align: left;
+	margin-left: 15px;
+}
